@@ -28,9 +28,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Function cacheSolve checks if there is inerse of matrix in cache
-## If there is inverse in cache it returns it
-## If not it calculates invese using solve fuction
+## Function cacheSolve checks if there is inverse of matrix in cache
+## If there is inverse in cache it returns that inverse
+## If not it calculates inverse using solve fuction
 ## Calculated result is first saved in cache using 
 ## result of funcion makeCacheMatrix, then returned
 
